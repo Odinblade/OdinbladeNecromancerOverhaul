@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f1d6f2b9-0848-426d-8169-c3946d47c9a4">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Blood" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Bloodify" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="17" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;Enemy" />
+        <field name="OverrideSkillLevel" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="HitRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="MinHitsPerTurn" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="MaxHitsPerTurn" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="HitDelay" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 5" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Water_BloodStorm" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Blood Storm" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Sacrifice &lt;font color='#B823CB'&gt;25% current Vitality&lt;/font&gt; ([2] &lt;font color='#C80030'&gt;Vitality&lt;/font&gt;) to cast this spell.&lt;br&gt;&lt;br&gt;Conjure a volatile &lt;font color='#c80030'&gt;bloodstorm&lt;/font&gt; over target area, lasting 2 turns. &lt;br&gt;&lt;br&gt;Blood crashes from the &lt;font color='#c80030'&gt;bloodstorm&lt;/font&gt; on-cast and on-turn at up to 5 enemies, dealing [1] in a 2m radius. &lt;br&gt;&lt;br&gt;Applies &lt;font color=&quot;#B823CB&quot;&gt;Decaying&lt;/font&gt; and &lt;font color=&quot;#c9aa58&quot;&gt;Diseased&lt;/font&gt;." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_BloodStorm_Hand_01:Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Prepare_Voodoo_BloodStorm_BodyFX_01,KeepRot:Dummy_BodyFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_air_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Voodoo_BloodStorm_Hand_01:Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Cast_Voodoo_BloodStorm_Hand_01_Texkey:Dummy_L_HandFX,Dummy_R_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Air_Target_Lightning_01" />
+        <field name="StormEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Impact_BloodStorm_01" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="ProjectileSkills" type="StringStatObjectFieldDefinition" value="ProjectileStrike_OdinNECRO_Stormbolt_BloodStorm" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:ProjectileStrike_OdinNECRO_Stormbolt_BloodStorm:Damage;Skill:Target_OdinNECRO_StatSkill_Vit_25:Damage;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

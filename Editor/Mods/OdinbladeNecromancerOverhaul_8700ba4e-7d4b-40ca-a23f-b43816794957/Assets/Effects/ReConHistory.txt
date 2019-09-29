@@ -1,0 +1,21 @@
+levelup 15
+addSkill Target_OdinNECRO_ExhumeCorpse 
+peace
+peace
+peace
+maxout
+peace
+addPlayerCharacter Elves_Hero_Female_7ef846f5-34dc-450c-815e-a58dfc190a7b 
+addPlayerCharacter Elves_Hero_Female_7ef846f5-34dc-450c-815e-a58dfc190a7b 
+maxot
+maxout
+addSkill Target_EnemyResurrect 
+levelup 15
+peace
+peace
+addSkill Target_OdinNECRO_RaiseBoneCrawlers
+addSkill Target_OdinNECRO_TotemsOfTheNecromancer
+peace
+maxout
+nocooldowns
+[HistoryLimit]30

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Damage_OdinNECRO_ARCANEPUNISHMENT" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="67" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinNECRO_Staves_Blood" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Staves_2H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="82" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_StaffOfMagus" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Staves" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" value="3da8116b-5af7-4940-9d02-d5d289168564" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinNECRO_Staves_Blood" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinNECRO_Staves_Blood" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinNECRO_Staves_Blood" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Staves" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinNECRO_Wands_Blood" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Wands_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="43" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="1300" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" value="3da8116b-5af7-4940-9d02-d5d289168564" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Wands" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinNECRO_Wand_Blood" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinNECRO_Wands_Blood" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinNECRO_Wands_Blood" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Staves" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinNECRO_Preview_Staves_Blood" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_OdinNECRO_Staves_Blood" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinNECRO_Staves_Blood" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Staves" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinNECRO_Preview_Wand_Blood" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_OdinNECRO_Wand_Blood" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Self:OnEquip:OdinNECRO_Weapon_Overlay_Staves" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Summon_UndeadWarrior" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="_OdinNECRO_Summon_UndeadWarrior_Sword" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Summon_UndeadMage" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="_OdinNECRO_Staves_Blood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Staves_Blood" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Staves_Blood" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Gravecaller_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Gravecaller_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Gravecaller_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Gravecaller_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Gravecaller_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Preview_Staves_Blood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Hexen_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Hexen_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Hexen_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Hexen_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Hexen_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Hexen_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Preview_Wand_Blood" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Cleric_Shield_Humans" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Hexen_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Shield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_HexenStart_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Shield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Nailbomb_A" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Nailbomb_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Wand_Blood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Bloodtide_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Bloodtide_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Bloodtide_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Bloodtide_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Bloodtide_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Preview_Wand_Blood" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinNECRO_Preview_Wand_Blood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Deathlord_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Deathlord_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Deathlord_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Deathlord_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_OdinNECRO_Deathlord_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Inquisitor_Mace_2H_Humans" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Mace_2H" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Target_ShacklesOfPain" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Mace_2H" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Target_ShacklesOfPain" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

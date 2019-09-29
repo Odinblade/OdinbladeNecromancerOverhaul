@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d3bd35ae-af62-42a2-b365-7091f909246b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_LocustPlague" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="135" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="DECAYING_TOUCH,100,2;IF(Character):OdinNECRO_APPLY_LOCUSTS,100,0;" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Angle" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Death Type" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Surface Type" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;!Dead" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBNECRO_Skill_LocustPlague" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Locust Plague" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Locusts deal [1] to characters in a cone and set &lt;font color=&quot;#B823CB&quot;&gt;Decaying&lt;/font&gt;. &lt;br&gt;&lt;br&gt;The locusts remove &lt;font color='#5A9646'&gt;Rested&lt;/font&gt; and &lt;font color=&quot;#4197e2&quot;&gt;Wet&lt;/font&gt; from all characters, and clear &lt;font color='#dbdbdb'&gt;surfaces&lt;/font&gt; in their wake.&lt;br&gt;&lt;br&gt;Characters with &lt;font color=&quot;#B823CB&quot;&gt;Decaying&lt;/font&gt; take &lt;font color='#a8a8a8'&gt;physical damage&lt;/font&gt; from healing spells and potions." />
+        <field name="StatsDescription" type="TranslatedStringStatObjectFieldDefinition" value="Cone angle: [2]&lt;br&gt;Length: [3]" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Angle;Range;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Root_01,KeepRot:Dummy_Root;OdinNECRO_Prepare_09:Dummy_Root;RS3_FX_Skills_Voodoo_Prepare_Air_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_shout_02_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinNECRO_Cone_Cast_02,detach:Dummy_Root;" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="BackStart" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SilencingStare" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="105" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinNECRO_TRANSFIXED,100,1;" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Angle" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Death Type" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="75" enumeration_type_name="Surface Type" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;Enemy" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Decay_SilencingStare" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Ophidian Glare" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destroy [1] on all &lt;font color='#aa3938'&gt;enemies&lt;/font&gt; in a cone and &lt;font color=&quot;#c9aa58&quot;&gt;Transfix&lt;/font&gt; them, preventing them from taking action. &lt;br&gt;&lt;br&gt;Upon expiry, the target will gain immunity to &lt;font color=&quot;#c9aa58&quot;&gt;Terrified&lt;/font&gt; and &lt;font color=&quot;#c9aa58&quot;&gt;Transfixed&lt;/font&gt; for 1 turn.&lt;br&gt;&lt;br&gt;&lt;font color='#b841f4'&gt;Hex damage&lt;/font&gt;: Deals [2]. &lt;font size='16'&gt;&lt;br&gt;---------------------------------------------------------------------&lt;br&gt;If the target has no &lt;font color='#188ede'&gt;Magic Armour&lt;/font&gt; or if this skill destroys it, this skill deals additional &lt;font color='#b841f4'&gt;Hex damage&lt;/font&gt;. This damage scales with &lt;font color='#40B606'&gt;Intelligence&lt;/font&gt; and levels.&lt;br&gt;---------------------------------------------------------------------&lt;br&gt;&lt;/font&gt;" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Skill:Projectile_OdinNECRO_OphidianGlare_Damage:Damage;" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="OdinNECRO_Prepare_03,KeepRot,Detach:Dummy_Root;OdinNECRO_Prepare_Grimoire_01:Dummy_Root;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Purple_Hand_02:Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_cone_fire_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinNECRO_Cast_Hand_02:Dummy_OverheadFX:cast;RS3_FX_Skills_Voodoo_Cast_Curse_Hand_01:Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Cast_Cone_Root_01:Dummy_OverheadFX" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 4" />
+        <field name="BackStart" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

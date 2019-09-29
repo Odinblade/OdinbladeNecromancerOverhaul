@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Summon_BloatedCorpse_Large" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinNECRO_BloatedCorpse_Explode_Large" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinNECRO_UnearthCorpse" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Grovetender_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloatedCorpse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Grovetender_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinNECRO_OathOfDesecration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Gravecaller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_OdinNECRO_BloodBarrage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Plague_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_MosquitoSwarm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Plague_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodBubble" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Bloodtide" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Hexen" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinNECRO_Mute" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Terramancer_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinNECRO_OathOfDesecration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Hexen" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Terramancer_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_MosquitoSwarm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Hexen" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DecayingTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Sentinel_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodBubble" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Sentinel_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_MosquitoSwarm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinNECRO_Class_Deathlord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadWarrior" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rush_EnemyBatteringRam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinGEO_EarthElemental_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadWarrior" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyWhirlwind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinGEO_EarthElemental_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyTaunt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadWarrior" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadMage" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_EnemyHailStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadMage" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyPyroclasticRock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyLightningBolt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadMage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyFlamingDaggers" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadMage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadAssassin" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_EnemyCloakAndDagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadAssassin" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemySerratedEdge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyGagOrder" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_UndeadAssassin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinNECRO_BoneGolem" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinNECRO_Enemy_UnearthCorpse" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_BoneGolem" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyBoneCage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyDeathsDoor" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinNECRO_BoneGolem" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

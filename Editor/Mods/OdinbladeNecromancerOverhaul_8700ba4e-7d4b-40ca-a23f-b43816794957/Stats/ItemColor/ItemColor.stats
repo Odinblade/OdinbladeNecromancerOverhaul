@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d4bbd7d3-eef6-4a97-a253-7fe5d06f83ef">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_01" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF3D3D3D" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF610000" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FF708090" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_02" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF13011C" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF590459" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FF2F2A51" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_03" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF420000" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF8B0000" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FFB22222" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_04" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF000000" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF3A3A51" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FF49A888" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
