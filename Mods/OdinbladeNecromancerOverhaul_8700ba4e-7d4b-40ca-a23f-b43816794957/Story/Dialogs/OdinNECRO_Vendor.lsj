@@ -1,427 +1,911 @@
 {
-   "save" : {
-      "header" : {
-         "version" : "2.0.8.2"
-      },
-      "regions" : {
-         "dialog" : {
-            "UUID" : {"type" : 22, "value" : "d8d6a57b-ae35-40b7-9130-58a342054acb"},
-            "automated" : {"type" : 19, "value" : 0},
-            "category" : {"type" : 23, "value" : "Generic NPC Dialog"},
-            "nodes" : [
-               {
-                  "RootNodes" : [
-                     {
-                        "RootNodes" : {"type" : 22, "value" : "aa558a2d-ef20-4711-bf0b-4caadbe797ea"}
-                     }
-                  ],
-                  "node" : [
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "CameraTarget" : {"type" : 4, "value" : -1},
-                              "CustomMovie" : {"type" : 23, "value" : ""},
-                              "Emotion" : {"type" : 23, "value" : "Default"},
-                              "ExtraWaitTime" : {"type" : 4, "value" : 0},
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ],
-                              "SoundEvent" : {"type" : 23, "value" : ""}
-                           }
-                        ],
-                        "ShowOnce" : {"type" : 19, "value" : 0},
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : 19, "value" : 1},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : 1, "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "TagText" : {
-                                                   "handle" : "ls::TranslatedStringRepository::s_HandleUnknown",
-                                                   "type" : 28,
-                                                   "value" : "Although this encounter has been brief, I am sure our paths will cross again. Tread carefully."
-                                                },
-                                                "stub" : {"type" : 19, "value" : 1}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : 22, "value" : "9fbacb1a-b4cb-418d-b8fe-ebfe5b173d14"},
-                        "addressedspeaker" : {"type" : 4, "value" : -1},
-                        "checkflags" : [ {} ],
-                        "children" : [ {} ],
-                        "constructor" : {"type" : 22, "value" : "TagAnswer"},
-                        "editorData" : [
-                           {
-                              "data" : [
-                                 {
-                                    "key" : {"type" : 22, "value" : "ID"},
-                                    "val" : {"type" : 23, "value" : "N2"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "NodeContext"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "collapsed"},
-                                    "val" : {"type" : 23, "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "logicalname"},
-                                    "val" : {"type" : 23, "value" : "Answer"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "position"},
-                                    "val" : {"type" : 23, "value" : "655;15"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "sourcetemplate"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 }
-                              ]
-                           }
-                        ],
-                        "endnode" : {"type" : 19, "value" : 1},
-                        "exclusive" : {"type" : 19, "value" : 0},
-                        "optional" : {"type" : 19, "value" : 0},
-                        "setflags" : [
-                           {
-                              "flaggroup" : [
-                                 {
-                                    "flag" : [
-                                       {
-                                          "name" : {"type" : 22, "value" : "StartTrade"},
-                                          "paramval" : {"type" : 4, "value" : 1},
-                                          "value" : {"type" : 19, "value" : 1}
-                                       }
-                                    ],"type" : {"type" : 22, "value" : "Character"}}
-                              ]
-                           }
-                        ],
-                        "speaker" : {"type" : 4, "value" : 0},
-                        "stub" : {"type" : 19, "value" : 1},
-                        "transitionmode" : {"type" : 1, "value" : 0},
-                        "waittime" : {"type" : 6, "value" : -1.0}
-                     },
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "CameraTarget" : {"type" : 4, "value" : -1},
-                              "CustomMovie" : {"type" : 23, "value" : ""},
-                              "Emotion" : {"type" : 23, "value" : "Default"},
-                              "ExtraWaitTime" : {"type" : 4, "value" : 0},
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ],
-                              "SoundEvent" : {"type" : 23, "value" : ""}
-                           }
-                        ],
-                        "ShowOnce" : {"type" : 19, "value" : 0},
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : 19, "value" : 1},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : 1, "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "TagText" : {
-                                                   "handle" : "ls::TranslatedStringRepository::s_HandleUnknown",
-                                                   "type" : 28,
-                                                   "value" : "This world is truly a dark place. I practise Necromancy to bring back innocents slain by the tyranny of war. However, like me, they are never <i>truly</i> themselves again..."
-                                                },
-                                                "stub" : {"type" : 19, "value" : 1}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : 22, "value" : "aa558a2d-ef20-4711-bf0b-4caadbe797ea"},
-                        "addressedspeaker" : {"type" : 4, "value" : -1},
-                        "checkflags" : [ {} ],
-                        "children" : [
-                           {
-                              "child" : [
-                                 {
-                                    "UUID" : {"type" : 22, "value" : "b1b6e28e-10ec-4476-9f03-2d144764fd3e"}
-                                 },
-                                 {
-                                    "UUID" : {"type" : 22, "value" : "c5063638-f9cb-465f-be07-20dc7534e0d8"}
-                                 }
-                              ]
-                           }
-                        ],
-                        "constructor" : {"type" : 22, "value" : "TagGreeting"},
-                        "editorData" : [
-                           {
-                              "data" : [
-                                 {
-                                    "key" : {"type" : 22, "value" : "ID"},
-                                    "val" : {"type" : 23, "value" : "N4"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "NodeContext"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "collapsed"},
-                                    "val" : {"type" : 23, "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "logicalname"},
-                                    "val" : {"type" : 23, "value" : "Greeting"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "position"},
-                                    "val" : {"type" : 23, "value" : "15;15"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "sourcetemplate"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 }
-                              ]
-                           }
-                        ],
-                        "endnode" : {"type" : 19, "value" : 0},
-                        "exclusive" : {"type" : 19, "value" : 0},
-                        "optional" : {"type" : 19, "value" : 0},
-                        "setflags" : [ {} ],
-                        "speaker" : {"type" : 4, "value" : 0},
-                        "stub" : {"type" : 19, "value" : 0},
-                        "transitionmode" : {"type" : 1, "value" : 0},
-                        "waittime" : {"type" : 6, "value" : -1.0}
-                     },
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "CameraTarget" : {"type" : 4, "value" : -1},
-                              "CustomMovie" : {"type" : 23, "value" : ""},
-                              "Emotion" : {"type" : 23, "value" : "Default"},
-                              "ExtraWaitTime" : {"type" : 4, "value" : 0},
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ],
-                              "SoundEvent" : {"type" : 23, "value" : ""}
-                           }
-                        ],
-                        "ShowOnce" : {"type" : 19, "value" : 1},
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : 19, "value" : 1},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : 1, "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "TagText" : {
-                                                   "handle" : "ls::TranslatedStringRepository::s_HandleUnknown",
-                                                   "type" : 28,
-                                                   "value" : "I would like to trade."
-                                                },
-                                                "stub" : {"type" : 19, "value" : 1}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : 22, "value" : "b1b6e28e-10ec-4476-9f03-2d144764fd3e"},
-                        "addressedspeaker" : {"type" : 4, "value" : -1},
-                        "checkflags" : [ {} ],
-                        "children" : [
-                           {
-                              "child" : [
-                                 {
-                                    "UUID" : {"type" : 22, "value" : "9fbacb1a-b4cb-418d-b8fe-ebfe5b173d14"}
-                                 }
-                              ]
-                           }
-                        ],
-                        "constructor" : {"type" : 22, "value" : "TagQuestion"},
-                        "editorData" : [
-                           {
-                              "data" : [
-                                 {
-                                    "key" : {"type" : 22, "value" : "ID"},
-                                    "val" : {"type" : 23, "value" : "N3"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "NodeContext"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "collapsed"},
-                                    "val" : {"type" : 23, "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "logicalname"},
-                                    "val" : {"type" : 23, "value" : "Question"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "position"},
-                                    "val" : {"type" : 23, "value" : "335;15"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "sourcetemplate"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 }
-                              ]
-                           }
-                        ],
-                        "endnode" : {"type" : 19, "value" : 0},
-                        "exclusive" : {"type" : 19, "value" : 0},
-                        "optional" : {"type" : 19, "value" : 0},
-                        "setflags" : [ {} ],
-                        "speaker" : {"type" : 4, "value" : 1},
-                        "stub" : {"type" : 19, "value" : 1},
-                        "transitionmode" : {"type" : 1, "value" : 0},
-                        "waittime" : {"type" : 6, "value" : -1.0}
-                     },
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "CameraTarget" : {"type" : 4, "value" : -1},
-                              "CustomMovie" : {"type" : 23, "value" : ""},
-                              "Emotion" : {"type" : 23, "value" : "Default"},
-                              "ExtraWaitTime" : {"type" : 4, "value" : 0},
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ],
-                              "SoundEvent" : {"type" : 23, "value" : ""}
-                           }
-                        ],
-                        "ShowOnce" : {"type" : 19, "value" : 1},
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : 19, "value" : 1},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : 1, "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "TagText" : {
-                                                   "handle" : "ls::TranslatedStringRepository::s_HandleUnknown",
-                                                   "type" : 28,
-                                                   "value" : "*Take my leave*"
-                                                },
-                                                "stub" : {"type" : 19, "value" : 1}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : 22, "value" : "c5063638-f9cb-465f-be07-20dc7534e0d8"},
-                        "addressedspeaker" : {"type" : 4, "value" : -1},
-                        "checkflags" : [ {} ],
-                        "children" : [ {} ],
-                        "constructor" : {"type" : 22, "value" : "TagQuestion"},
-                        "editorData" : [
-                           {
-                              "data" : [
-                                 {
-                                    "key" : {"type" : 22, "value" : "ID"},
-                                    "val" : {"type" : 23, "value" : "N1"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "NodeContext"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "collapsed"},
-                                    "val" : {"type" : 23, "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "logicalname"},
-                                    "val" : {"type" : 23, "value" : "Question"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "position"},
-                                    "val" : {"type" : 23, "value" : "335;234"}
-                                 },
-                                 {
-                                    "key" : {"type" : 22, "value" : "sourcetemplate"},
-                                    "val" : {"type" : 23, "value" : ""}
-                                 }
-                              ]
-                           }
-                        ],
-                        "endnode" : {"type" : 19, "value" : 1},
-                        "exclusive" : {"type" : 19, "value" : 0},
-                        "optional" : {"type" : 19, "value" : 0},
-                        "setflags" : [ {} ],
-                        "speaker" : {"type" : 4, "value" : 1},
-                        "stub" : {"type" : 19, "value" : 1},
-                        "transitionmode" : {"type" : 1, "value" : 0},
-                        "waittime" : {"type" : 6, "value" : -1.0}
-                     }
-                  ]
-               }
-            ],
-            "speakerlist" : [
-               {
-                  "speaker" : [
-                     {
-                        "index" : {"type" : 22, "value" : "0"},
-                        "list" : {"type" : 23, "value" : "f5f205bf-b5e7-4c1a-8462-05496988005c"}
-                     },
-                     {
-                        "index" : {"type" : 22, "value" : "1"},
-                        "list" : {"type" : 23, "value" : "e0d1ff71-04a8-4340-ae64-9684d846eb83"}
-                     }
-                  ]
-               }
-            ]
-         },
-         "editorData" : {
-            "needLayout" : {"type" : 19, "value" : 0},
-            "nextNodeId" : {"type" : 5, "value" : 17}
-         }
-      }
-   }
+	"save": {
+		"header": {
+			"time": 0,
+			"version": "2.0.8.2"
+		},
+		"regions": {
+			"dialog": {
+				"UUID": {
+					"type": 22,
+					"value": "d8d6a57b-ae35-40b7-9130-58a342054acb"
+				},
+				"automated": {
+					"type": 19,
+					"value": false
+				},
+				"category": {
+					"type": 23,
+					"value": "Generic NPC Dialog"
+				},
+				"nodes": [
+					{
+						"RootNodes": [
+							{
+								"RootNodes": {
+									"type": 22,
+									"value": "aa558a2d-ef20-4711-bf0b-4caadbe797ea"
+								}
+							}
+						],
+						"node": [
+							{
+								"ShowOnce": {
+									"type": 19,
+									"value": false
+								},
+								"UUID": {
+									"type": 22,
+									"value": "9fbacb1a-b4cb-418d-b8fe-ebfe5b173d14"
+								},
+								"addressedspeaker": {
+									"type": 4,
+									"value": -1
+								},
+								"constructor": {
+									"type": 22,
+									"value": "TagAnswer"
+								},
+								"endnode": {
+									"type": 19,
+									"value": true
+								},
+								"exclusive": {
+									"type": 19,
+									"value": false
+								},
+								"optional": {
+									"type": 19,
+									"value": false
+								},
+								"speaker": {
+									"type": 4,
+									"value": 0
+								},
+								"stub": {
+									"type": 19,
+									"value": true
+								},
+								"transitionmode": {
+									"type": 1,
+									"value": 0
+								},
+								"waittime": {
+									"type": 6,
+									"value": -1.0
+								},
+								"GameData": [
+									{
+										"CameraTarget": {
+											"type": 4,
+											"value": -1
+										},
+										"CustomMovie": {
+											"type": 23,
+											"value": ""
+										},
+										"Emotion": {
+											"type": 23,
+											"value": "Default"
+										},
+										"ExtraWaitTime": {
+											"type": 4,
+											"value": 0
+										},
+										"SoundEvent": {
+											"type": 23,
+											"value": ""
+										},
+										"AiPersonalities": [
+											{}
+										],
+										"MusicInstrumentSounds": [
+											{}
+										],
+										"OriginSound": [
+											{}
+										]
+									}
+								],
+								"TaggedTexts": [
+									{
+										"TaggedText": [
+											{
+												"HasTagRule": {
+													"type": 19,
+													"value": true
+												},
+												"RuleGroup": [
+													{
+														"TagCombineOp": {
+															"type": 1,
+															"value": 0
+														},
+														"Rules": [
+															{}
+														]
+													}
+												],
+												"TagTexts": [
+													{
+														"TagText": [
+															{
+																"TagText": {
+																	"type": 28,
+																	"value": "Although this encounter has been brief, I am sure our paths will cross again. Tread carefully.",
+																	"handle": "h79aec4a6g9ca8g4898gad88gec11d15d248d"
+																},
+																"stub": {
+																	"type": 19,
+																	"value": true
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								],
+								"Tags": [
+									{}
+								],
+								"checkflags": [
+									{}
+								],
+								"children": [
+									{}
+								],
+								"editorData": [
+									{
+										"data": [
+											{
+												"key": {
+													"type": 22,
+													"value": "ID"
+												},
+												"val": {
+													"type": 23,
+													"value": "N2"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "NodeContext"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "collapsed"
+												},
+												"val": {
+													"type": 23,
+													"value": "False"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "logicalname"
+												},
+												"val": {
+													"type": 23,
+													"value": "Answer"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "position"
+												},
+												"val": {
+													"type": 23,
+													"value": "655;15"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "sourcetemplate"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											}
+										]
+									}
+								],
+								"setflags": [
+									{
+										"flaggroup": [
+											{
+												"type": {
+													"type": 22,
+													"value": "Character"
+												},
+												"flag": [
+													{
+														"name": {
+															"type": 22,
+															"value": "StartTrade"
+														},
+														"paramval": {
+															"type": 4,
+															"value": 1
+														},
+														"value": {
+															"type": 19,
+															"value": true
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"ShowOnce": {
+									"type": 19,
+									"value": false
+								},
+								"UUID": {
+									"type": 22,
+									"value": "aa558a2d-ef20-4711-bf0b-4caadbe797ea"
+								},
+								"addressedspeaker": {
+									"type": 4,
+									"value": -1
+								},
+								"constructor": {
+									"type": 22,
+									"value": "TagGreeting"
+								},
+								"endnode": {
+									"type": 19,
+									"value": false
+								},
+								"exclusive": {
+									"type": 19,
+									"value": false
+								},
+								"optional": {
+									"type": 19,
+									"value": false
+								},
+								"speaker": {
+									"type": 4,
+									"value": 0
+								},
+								"stub": {
+									"type": 19,
+									"value": false
+								},
+								"transitionmode": {
+									"type": 1,
+									"value": 0
+								},
+								"waittime": {
+									"type": 6,
+									"value": -1.0
+								},
+								"GameData": [
+									{
+										"CameraTarget": {
+											"type": 4,
+											"value": -1
+										},
+										"CustomMovie": {
+											"type": 23,
+											"value": ""
+										},
+										"Emotion": {
+											"type": 23,
+											"value": "Default"
+										},
+										"ExtraWaitTime": {
+											"type": 4,
+											"value": 0
+										},
+										"SoundEvent": {
+											"type": 23,
+											"value": ""
+										},
+										"AiPersonalities": [
+											{}
+										],
+										"MusicInstrumentSounds": [
+											{}
+										],
+										"OriginSound": [
+											{}
+										]
+									}
+								],
+								"TaggedTexts": [
+									{
+										"TaggedText": [
+											{
+												"HasTagRule": {
+													"type": 19,
+													"value": true
+												},
+												"RuleGroup": [
+													{
+														"TagCombineOp": {
+															"type": 1,
+															"value": 0
+														},
+														"Rules": [
+															{}
+														]
+													}
+												],
+												"TagTexts": [
+													{
+														"TagText": [
+															{
+																"TagText": {
+																	"type": 28,
+																	"value": "This world is truly a dark place. I practise Necromancy to bring back innocents slain by the tyranny of war. However, like me, they are never <i>truly</i> themselves again...",
+																	"handle": "habd5259ag590fg4999gbb2cgcea01da7656f"
+																},
+																"stub": {
+																	"type": 19,
+																	"value": true
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								],
+								"Tags": [
+									{}
+								],
+								"checkflags": [
+									{}
+								],
+								"children": [
+									{
+										"child": [
+											{
+												"UUID": {
+													"type": 22,
+													"value": "b1b6e28e-10ec-4476-9f03-2d144764fd3e"
+												}
+											},
+											{
+												"UUID": {
+													"type": 22,
+													"value": "c5063638-f9cb-465f-be07-20dc7534e0d8"
+												}
+											}
+										]
+									}
+								],
+								"editorData": [
+									{
+										"data": [
+											{
+												"key": {
+													"type": 22,
+													"value": "ID"
+												},
+												"val": {
+													"type": 23,
+													"value": "N4"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "NodeContext"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "collapsed"
+												},
+												"val": {
+													"type": 23,
+													"value": "False"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "logicalname"
+												},
+												"val": {
+													"type": 23,
+													"value": "Greeting"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "position"
+												},
+												"val": {
+													"type": 23,
+													"value": "15;15"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "sourcetemplate"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											}
+										]
+									}
+								],
+								"setflags": [
+									{}
+								]
+							},
+							{
+								"ShowOnce": {
+									"type": 19,
+									"value": true
+								},
+								"UUID": {
+									"type": 22,
+									"value": "b1b6e28e-10ec-4476-9f03-2d144764fd3e"
+								},
+								"addressedspeaker": {
+									"type": 4,
+									"value": -1
+								},
+								"constructor": {
+									"type": 22,
+									"value": "TagQuestion"
+								},
+								"endnode": {
+									"type": 19,
+									"value": false
+								},
+								"exclusive": {
+									"type": 19,
+									"value": false
+								},
+								"optional": {
+									"type": 19,
+									"value": false
+								},
+								"speaker": {
+									"type": 4,
+									"value": 1
+								},
+								"stub": {
+									"type": 19,
+									"value": true
+								},
+								"transitionmode": {
+									"type": 1,
+									"value": 0
+								},
+								"waittime": {
+									"type": 6,
+									"value": -1.0
+								},
+								"GameData": [
+									{
+										"CameraTarget": {
+											"type": 4,
+											"value": -1
+										},
+										"CustomMovie": {
+											"type": 23,
+											"value": ""
+										},
+										"Emotion": {
+											"type": 23,
+											"value": "Default"
+										},
+										"ExtraWaitTime": {
+											"type": 4,
+											"value": 0
+										},
+										"SoundEvent": {
+											"type": 23,
+											"value": ""
+										},
+										"AiPersonalities": [
+											{}
+										],
+										"MusicInstrumentSounds": [
+											{}
+										],
+										"OriginSound": [
+											{}
+										]
+									}
+								],
+								"TaggedTexts": [
+									{
+										"TaggedText": [
+											{
+												"HasTagRule": {
+													"type": 19,
+													"value": true
+												},
+												"RuleGroup": [
+													{
+														"TagCombineOp": {
+															"type": 1,
+															"value": 0
+														},
+														"Rules": [
+															{}
+														]
+													}
+												],
+												"TagTexts": [
+													{
+														"TagText": [
+															{
+																"TagText": {
+																	"type": 28,
+																	"value": "I would like to trade.",
+																	"handle": "h397abe22g729ag46b3ga5bag9cb5113944be"
+																},
+																"stub": {
+																	"type": 19,
+																	"value": true
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								],
+								"Tags": [
+									{}
+								],
+								"checkflags": [
+									{}
+								],
+								"children": [
+									{
+										"child": [
+											{
+												"UUID": {
+													"type": 22,
+													"value": "9fbacb1a-b4cb-418d-b8fe-ebfe5b173d14"
+												}
+											}
+										]
+									}
+								],
+								"editorData": [
+									{
+										"data": [
+											{
+												"key": {
+													"type": 22,
+													"value": "ID"
+												},
+												"val": {
+													"type": 23,
+													"value": "N3"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "NodeContext"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "collapsed"
+												},
+												"val": {
+													"type": 23,
+													"value": "False"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "logicalname"
+												},
+												"val": {
+													"type": 23,
+													"value": "Question"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "position"
+												},
+												"val": {
+													"type": 23,
+													"value": "335;15"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "sourcetemplate"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											}
+										]
+									}
+								],
+								"setflags": [
+									{}
+								]
+							},
+							{
+								"ShowOnce": {
+									"type": 19,
+									"value": true
+								},
+								"UUID": {
+									"type": 22,
+									"value": "c5063638-f9cb-465f-be07-20dc7534e0d8"
+								},
+								"addressedspeaker": {
+									"type": 4,
+									"value": -1
+								},
+								"constructor": {
+									"type": 22,
+									"value": "TagQuestion"
+								},
+								"endnode": {
+									"type": 19,
+									"value": true
+								},
+								"exclusive": {
+									"type": 19,
+									"value": false
+								},
+								"optional": {
+									"type": 19,
+									"value": false
+								},
+								"speaker": {
+									"type": 4,
+									"value": 1
+								},
+								"stub": {
+									"type": 19,
+									"value": true
+								},
+								"transitionmode": {
+									"type": 1,
+									"value": 0
+								},
+								"waittime": {
+									"type": 6,
+									"value": -1.0
+								},
+								"GameData": [
+									{
+										"CameraTarget": {
+											"type": 4,
+											"value": -1
+										},
+										"CustomMovie": {
+											"type": 23,
+											"value": ""
+										},
+										"Emotion": {
+											"type": 23,
+											"value": "Default"
+										},
+										"ExtraWaitTime": {
+											"type": 4,
+											"value": 0
+										},
+										"SoundEvent": {
+											"type": 23,
+											"value": ""
+										},
+										"AiPersonalities": [
+											{}
+										],
+										"MusicInstrumentSounds": [
+											{}
+										],
+										"OriginSound": [
+											{}
+										]
+									}
+								],
+								"TaggedTexts": [
+									{
+										"TaggedText": [
+											{
+												"HasTagRule": {
+													"type": 19,
+													"value": true
+												},
+												"RuleGroup": [
+													{
+														"TagCombineOp": {
+															"type": 1,
+															"value": 0
+														},
+														"Rules": [
+															{}
+														]
+													}
+												],
+												"TagTexts": [
+													{
+														"TagText": [
+															{
+																"TagText": {
+																	"type": 28,
+																	"value": "*Take my leave*",
+																	"handle": "h38682350ga82ag49a2g87ccgdbb0042893d5"
+																},
+																"stub": {
+																	"type": 19,
+																	"value": true
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								],
+								"Tags": [
+									{}
+								],
+								"checkflags": [
+									{}
+								],
+								"children": [
+									{}
+								],
+								"editorData": [
+									{
+										"data": [
+											{
+												"key": {
+													"type": 22,
+													"value": "ID"
+												},
+												"val": {
+													"type": 23,
+													"value": "N1"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "NodeContext"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "collapsed"
+												},
+												"val": {
+													"type": 23,
+													"value": "False"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "logicalname"
+												},
+												"val": {
+													"type": 23,
+													"value": "Question"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "position"
+												},
+												"val": {
+													"type": 23,
+													"value": "335;234"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "sourcetemplate"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											}
+										]
+									}
+								],
+								"setflags": [
+									{}
+								]
+							}
+						]
+					}
+				],
+				"speakerlist": [
+					{
+						"speaker": [
+							{
+								"index": {
+									"type": 22,
+									"value": "0"
+								},
+								"list": {
+									"type": 23,
+									"value": "f5f205bf-b5e7-4c1a-8462-05496988005c"
+								}
+							},
+							{
+								"index": {
+									"type": 22,
+									"value": "1"
+								},
+								"list": {
+									"type": 23,
+									"value": "e0d1ff71-04a8-4340-ae64-9684d846eb83"
+								}
+							}
+						]
+					}
+				]
+			},
+			"editorData": {
+				"needLayout": {
+					"type": 19,
+					"value": false
+				},
+				"nextNodeId": {
+					"type": 5,
+					"value": 17
+				}
+			}
+		}
+	}
 }
