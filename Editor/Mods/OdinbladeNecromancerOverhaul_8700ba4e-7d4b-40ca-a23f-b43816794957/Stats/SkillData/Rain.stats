@@ -11,7 +11,7 @@
         <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="17" enumeration_type_name="Surface Type" />
         <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="DECAYING_TOUCH,100,1;BLEEDING,100,1;Douse" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BLEEDING,100,1;Douse" />
         <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="8" />
         <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;Enemy" />
         <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
@@ -24,7 +24,7 @@
         <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 1; WaterSpecialist 1;" />
         <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Decay_BloodRain" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Raining Blood" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Sacrifice &lt;font color='#B823CB'&gt;5% current Vitality&lt;/font&gt; ([1] &lt;font color='#C80030'&gt;Vitality&lt;/font&gt;) to cast this spell.&lt;br&gt;&lt;br&gt;Call a terrible downpour, creating &lt;font color=&quot;#c80030&quot;&gt;Blood surfaces&lt;/font&gt; which spread and douse &lt;font color=&quot;#fe6e27&quot;&gt;flames&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Sets &lt;font color='#c80030'&gt;Bleeding&lt;/font&gt; and &lt;font color=&quot;#B823CB&quot;&gt;Decaying&lt;/font&gt; on all characters." />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Sacrifice &lt;font color='#B823CB'&gt;5% current Vitality&lt;/font&gt; ([1] &lt;font color='#C80030'&gt;Vitality&lt;/font&gt;) to cast this spell.&lt;br&gt;&lt;br&gt;Call a terrible downpour, creating &lt;font color=&quot;#c80030&quot;&gt;Blood surfaces&lt;/font&gt; which spread and douse &lt;font color=&quot;#fe6e27&quot;&gt;flames&lt;/font&gt;. Sets &lt;font color='#c80030'&gt;Bleeding&lt;/font&gt; on &lt;font color='#aa3938'&gt;enemies&lt;/font&gt;." />
         <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Target_OdinNECRO_StatSkill_Vit_5:Damage;" />
         <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_start" />

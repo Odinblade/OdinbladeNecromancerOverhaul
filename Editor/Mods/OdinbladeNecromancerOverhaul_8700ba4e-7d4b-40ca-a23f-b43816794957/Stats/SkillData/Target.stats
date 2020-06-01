@@ -113,6 +113,7 @@
         <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
         <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
         <field name="IgnoreVisionBlock" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="!Immobile" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -838,7 +839,7 @@
         <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
         <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
         <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="95" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CreateSurface,2,,Blood,100" />
@@ -859,7 +860,7 @@
         <field name="Icon" type="StringStatObjectFieldDefinition" value="OBNECRO_Skill_SanguineTorrent" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Sanguine Torrent" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Sacrifice &lt;font color='#B823CB'&gt;15% current Vitality&lt;/font&gt; ([2] &lt;font color='#C80030'&gt;Vitality&lt;/font&gt;) to cast this spell.&lt;br&gt;&lt;br&gt;Unleash a torrent of blood, dealing [1] to characters in the area and creating a &lt;font color=&quot;#c80030&quot;&gt;Blood surface&lt;/font&gt;." />
-        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Skill:Target_OdinNECRO_StatSkill_Vit_20:Damage;" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Skill:Target_OdinNECRO_StatSkill_Vit_15:Damage;" />
         <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
         <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
@@ -947,7 +948,7 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="OdinNECRO_MysticRupture" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinNECRO_RUPTURE,100,2;" />
         <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />

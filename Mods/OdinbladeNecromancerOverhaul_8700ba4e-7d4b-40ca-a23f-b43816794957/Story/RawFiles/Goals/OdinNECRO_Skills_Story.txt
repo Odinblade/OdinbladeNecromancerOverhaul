@@ -175,13 +175,16 @@ ProcObjectTimer(_Character, "OBNECRO_Translocate_Fade_Timer", 1250);
 PlayEffectAtPosition("OdinNECRO_Cast_Root_02", _preX, _preY, _preZ);
 CreateSurfaceAtPosition(_preX, _preY, _preZ, "SurfaceBlood", 1.0, -1.0);
 DB_OBNECRO_Translocate(_Character, _X, _Y, _Z,_preX, _preY, _preZ);
-TimerLaunch("OBNECRO_Translocate_Timer", 2000);
+TimerLaunch("OBNECRO_Translocate_Timer", 2300);
 
 //Hides the caster during VFX wind-up.
 PROC
-ProcObjectTimerFinished(_Character, "OBNECRO_Translocate_Fade_Timer")
+ProcObjectTimerFinished((CHARACTERGUID)_Character, "OBNECRO_Translocate_Fade_Timer")
+AND
+DB_OBNECRO_Translocate(_Character, _X, _Y, _Z,_preX, _preY, _preZ)
 THEN
 SetVisible(_Character, 0);
+CharacterUseSkillAtPosition(_Character, "Jump_OdinNECRO_Translocate_Jump", _X, _Y, _Z, 1, 1);
 
 //Shows caster, teleports them to the correct position and plays VFX.
 IF
@@ -191,7 +194,6 @@ DB_OBNECRO_Translocate(_Character, _X, _Y, _Z, _preX, _preY, _preZ)
 THEN
 SetVisible(_Character, 1);
 PlayEffectAtPosition("OdinNECRO_Impact_07", _X, _Y, _Z);
-TeleportToPosition(_Character, _X, _Y, _Z, "", 0, 1);
 NOT DB_OBNECRO_Translocate(_Character, _X, _Y, _Z, _preX, _preY, _preZ);
 //END_REGION
 
