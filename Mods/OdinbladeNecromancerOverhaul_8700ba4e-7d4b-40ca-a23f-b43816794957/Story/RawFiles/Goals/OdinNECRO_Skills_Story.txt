@@ -160,6 +160,7 @@ THEN
 ProcObjectTimerCancel(_Corpse, "OBNECRO_ExhumeCorpse_Fizzle_Timer");
 PlayEffectAtPosition("RS3_FX_Skills_Soul_Impact_Soul_Touch_Hand_01", _X, _Y, _Z);
 SetOnStage(_Corpse, 0);
+RemoveTemporaryCharacter(_Corpse);
 NOT DB_OBNECRO_ExhumeCorpse(_Corpse, _X, _Y, _Z);
 NOT DB_OBNECRO_Corpse_Turn_Count(_Corpse, _Turns);
 //END_REGION

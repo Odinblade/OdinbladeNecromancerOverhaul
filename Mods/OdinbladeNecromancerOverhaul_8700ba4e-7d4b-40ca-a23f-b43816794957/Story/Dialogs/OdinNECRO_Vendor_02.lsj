@@ -8,7 +8,7 @@
 			"dialog": {
 				"UUID": {
 					"type": 22,
-					"value": "6c6ba5d4-8784-4034-b16e-f242b546d7c8"
+					"value": "317d173d-ec10-4d24-8302-77d3954ea6bb"
 				},
 				"automated": {
 					"type": 19,
@@ -26,12 +26,6 @@
 									"type": 22,
 									"value": "12e3f551-5c26-4cba-9698-d8a93c52fdcd"
 								}
-							},
-							{
-								"RootNodes": {
-									"type": 22,
-									"value": "444b4935-1e79-40d1-b353-e4211affd8f7"
-								}
 							}
 						],
 						"node": [
@@ -42,7 +36,7 @@
 								},
 								"UUID": {
 									"type": 22,
-									"value": "444b4935-1e79-40d1-b353-e4211affd8f7"
+									"value": "12e3f551-5c26-4cba-9698-d8a93c52fdcd"
 								},
 								"addressedspeaker": {
 									"type": 4,
@@ -139,7 +133,7 @@
 																"TagText": {
 																	"type": 28,
 																	"value": "This world is truly a dark place. I practise Necromancy to bring back innocents slain by the tyranny of war. However, like me, they are never <i>truly</i> themselves again...",
-																	"handle": "h550e83bfg149dg402ag8632geac408a649a7"
+																	"handle": "hc2725366g0466g4089g9a7dgc6544468dc5c"
 																},
 																"stub": {
 																	"type": 19,
@@ -165,13 +159,13 @@
 											{
 												"UUID": {
 													"type": 22,
-													"value": "f0361f79-a288-4687-b705-8e9c78d44c8b"
+													"value": "657cb149-0d79-4a0c-8a5c-6a09f553b953"
 												}
 											},
 											{
 												"UUID": {
 													"type": 22,
-													"value": "8bf31855-7f17-4e34-bc77-9604ab10f662"
+													"value": "7c13d234-72f6-497e-a4a8-83bb7a437338"
 												}
 											}
 										]
@@ -254,7 +248,213 @@
 								},
 								"UUID": {
 									"type": 22,
-									"value": "8bf31855-7f17-4e34-bc77-9604ab10f662"
+									"value": "657cb149-0d79-4a0c-8a5c-6a09f553b953"
+								},
+								"addressedspeaker": {
+									"type": 4,
+									"value": -1
+								},
+								"constructor": {
+									"type": 22,
+									"value": "TagQuestion"
+								},
+								"endnode": {
+									"type": 19,
+									"value": false
+								},
+								"exclusive": {
+									"type": 19,
+									"value": false
+								},
+								"optional": {
+									"type": 19,
+									"value": false
+								},
+								"speaker": {
+									"type": 4,
+									"value": 1
+								},
+								"stub": {
+									"type": 19,
+									"value": true
+								},
+								"transitionmode": {
+									"type": 1,
+									"value": 0
+								},
+								"waittime": {
+									"type": 6,
+									"value": -1.0
+								},
+								"GameData": [
+									{
+										"CameraTarget": {
+											"type": 4,
+											"value": -1
+										},
+										"CustomMovie": {
+											"type": 23,
+											"value": ""
+										},
+										"Emotion": {
+											"type": 23,
+											"value": "Default"
+										},
+										"ExtraWaitTime": {
+											"type": 4,
+											"value": 0
+										},
+										"SoundEvent": {
+											"type": 23,
+											"value": ""
+										},
+										"AiPersonalities": [
+											{}
+										],
+										"MusicInstrumentSounds": [
+											{}
+										],
+										"OriginSound": [
+											{}
+										]
+									}
+								],
+								"TaggedTexts": [
+									{
+										"TaggedText": [
+											{
+												"HasTagRule": {
+													"type": 19,
+													"value": true
+												},
+												"RuleGroup": [
+													{
+														"TagCombineOp": {
+															"type": 1,
+															"value": 0
+														},
+														"Rules": [
+															{}
+														]
+													}
+												],
+												"TagTexts": [
+													{
+														"TagText": [
+															{
+																"TagText": {
+																	"type": 28,
+																	"value": "I would like to trade.",
+																	"handle": "h2ce15d87g9ceeg4bf3g8729g70d78b7d9293"
+																},
+																"stub": {
+																	"type": 19,
+																	"value": true
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								],
+								"Tags": [
+									{}
+								],
+								"checkflags": [
+									{}
+								],
+								"children": [
+									{
+										"child": [
+											{
+												"UUID": {
+													"type": 22,
+													"value": "978b64a8-08bb-443c-94cd-7a05bb103820"
+												}
+											}
+										]
+									}
+								],
+								"editorData": [
+									{
+										"data": [
+											{
+												"key": {
+													"type": 22,
+													"value": "ID"
+												},
+												"val": {
+													"type": 23,
+													"value": "N2"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "NodeContext"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "collapsed"
+												},
+												"val": {
+													"type": 23,
+													"value": "False"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "logicalname"
+												},
+												"val": {
+													"type": 23,
+													"value": "Question"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "position"
+												},
+												"val": {
+													"type": 23,
+													"value": "335;15"
+												}
+											},
+											{
+												"key": {
+													"type": 22,
+													"value": "sourcetemplate"
+												},
+												"val": {
+													"type": 23,
+													"value": ""
+												}
+											}
+										]
+									}
+								],
+								"setflags": [
+									{}
+								]
+							},
+							{
+								"ShowOnce": {
+									"type": 19,
+									"value": true
+								},
+								"UUID": {
+									"type": 22,
+									"value": "7c13d234-72f6-497e-a4a8-83bb7a437338"
 								},
 								"addressedspeaker": {
 									"type": 4,
@@ -351,7 +551,7 @@
 																"TagText": {
 																	"type": 28,
 																	"value": "*Take my leave*",
-																	"handle": "h6f1dbcffg6f5ag46e3gbc88gd245fbb1c88e"
+																	"handle": "h0c68f8eag5381g457fg9cd5g51ce020d6d99"
 																},
 																"stub": {
 																	"type": 19,
@@ -451,7 +651,7 @@
 								},
 								"UUID": {
 									"type": 22,
-									"value": "e6985667-c27d-4832-8838-180fb4c389ce"
+									"value": "978b64a8-08bb-443c-94cd-7a05bb103820"
 								},
 								"addressedspeaker": {
 									"type": 4,
@@ -548,7 +748,7 @@
 																"TagText": {
 																	"type": 28,
 																	"value": "Although this encounter has been brief, I am sure our paths will cross again. Tread carefully.",
-																	"handle": "h05568dc0gd773g41f1ga8ebgae7687a06238"
+																	"handle": "h7abb1d81g1c5dg48f2g9d2fg705553d177d1"
 																},
 																"stub": {
 																	"type": 19,
@@ -664,212 +864,6 @@
 											}
 										]
 									}
-								]
-							},
-							{
-								"ShowOnce": {
-									"type": 19,
-									"value": true
-								},
-								"UUID": {
-									"type": 22,
-									"value": "f0361f79-a288-4687-b705-8e9c78d44c8b"
-								},
-								"addressedspeaker": {
-									"type": 4,
-									"value": -1
-								},
-								"constructor": {
-									"type": 22,
-									"value": "TagQuestion"
-								},
-								"endnode": {
-									"type": 19,
-									"value": false
-								},
-								"exclusive": {
-									"type": 19,
-									"value": false
-								},
-								"optional": {
-									"type": 19,
-									"value": false
-								},
-								"speaker": {
-									"type": 4,
-									"value": 1
-								},
-								"stub": {
-									"type": 19,
-									"value": true
-								},
-								"transitionmode": {
-									"type": 1,
-									"value": 0
-								},
-								"waittime": {
-									"type": 6,
-									"value": -1.0
-								},
-								"GameData": [
-									{
-										"CameraTarget": {
-											"type": 4,
-											"value": -1
-										},
-										"CustomMovie": {
-											"type": 23,
-											"value": ""
-										},
-										"Emotion": {
-											"type": 23,
-											"value": "Default"
-										},
-										"ExtraWaitTime": {
-											"type": 4,
-											"value": 0
-										},
-										"SoundEvent": {
-											"type": 23,
-											"value": ""
-										},
-										"AiPersonalities": [
-											{}
-										],
-										"MusicInstrumentSounds": [
-											{}
-										],
-										"OriginSound": [
-											{}
-										]
-									}
-								],
-								"TaggedTexts": [
-									{
-										"TaggedText": [
-											{
-												"HasTagRule": {
-													"type": 19,
-													"value": true
-												},
-												"RuleGroup": [
-													{
-														"TagCombineOp": {
-															"type": 1,
-															"value": 0
-														},
-														"Rules": [
-															{}
-														]
-													}
-												],
-												"TagTexts": [
-													{
-														"TagText": [
-															{
-																"TagText": {
-																	"type": 28,
-																	"value": "I would like to trade.",
-																	"handle": "h6b4661dag011dg4421g8e69g5a97bfedfffa"
-																},
-																"stub": {
-																	"type": 19,
-																	"value": true
-																}
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								],
-								"Tags": [
-									{}
-								],
-								"checkflags": [
-									{}
-								],
-								"children": [
-									{
-										"child": [
-											{
-												"UUID": {
-													"type": 22,
-													"value": "e6985667-c27d-4832-8838-180fb4c389ce"
-												}
-											}
-										]
-									}
-								],
-								"editorData": [
-									{
-										"data": [
-											{
-												"key": {
-													"type": 22,
-													"value": "ID"
-												},
-												"val": {
-													"type": 23,
-													"value": "N2"
-												}
-											},
-											{
-												"key": {
-													"type": 22,
-													"value": "NodeContext"
-												},
-												"val": {
-													"type": 23,
-													"value": ""
-												}
-											},
-											{
-												"key": {
-													"type": 22,
-													"value": "collapsed"
-												},
-												"val": {
-													"type": 23,
-													"value": "False"
-												}
-											},
-											{
-												"key": {
-													"type": 22,
-													"value": "logicalname"
-												},
-												"val": {
-													"type": 23,
-													"value": "Question"
-												}
-											},
-											{
-												"key": {
-													"type": 22,
-													"value": "position"
-												},
-												"val": {
-													"type": 23,
-													"value": "335;15"
-												}
-											},
-											{
-												"key": {
-													"type": 22,
-													"value": "sourcetemplate"
-												},
-												"val": {
-													"type": 23,
-													"value": ""
-												}
-											}
-										]
-									}
-								],
-								"setflags": [
-									{}
 								]
 							}
 						]
