@@ -9,8 +9,10 @@ DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_Mys
 DB_OBCORE_EnemySkill_Pair("Projectile_EnemyHailStrike","Target_OdinNECRO_Enemy_MysticRupture");
 DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPyroclasticRock","Target_OdinNECRO_Enemy_MysticRupture");
 DB_OBCORE_EnemySkill_Pair("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream");
-DB_OBCORE_EnemySkill_Pair("EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
-DB_OBCORE_EnemySkill_Pair("EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyContamination","Projectile_OdinNECRO_Enemy_WitchesBrew");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyContamination_Shambling","Projectile_OdinNECRO_Enemy_WitchesBrew");
 
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
