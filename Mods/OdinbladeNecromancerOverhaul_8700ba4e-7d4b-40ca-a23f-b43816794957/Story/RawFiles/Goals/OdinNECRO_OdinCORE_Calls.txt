@@ -1,19 +1,6 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_OBCORE_EnemySkill_Pair("","");
-DB_OBCORE_EnemySkill_Pair("Target_EnemyMosquitoSwarm", "Projectile_OdinNECRO_Enemy_BloodBarrage");
-DB_OBCORE_EnemySkill_Pair("Target_EnemyBurnMyEyes","Target_OdinNECRO_Enemy_OathOfDesecration");
-DB_OBCORE_EnemySkill_Pair("Target_EnemyFrostyShell","Target_OdinNECRO_Enemy_OathOfDesecration");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_MysticRupture");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyHailStrike","Target_OdinNECRO_Enemy_MysticRupture");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPyroclasticRock","Target_OdinNECRO_Enemy_MysticRupture");
-DB_OBCORE_EnemySkill_Pair("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyContamination","Projectile_OdinNECRO_Enemy_WitchesBrew");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyContamination_Shambling","Projectile_OdinNECRO_Enemy_WitchesBrew");
-
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinNECRO_Trader_000_eaa6916d-2e13-4878-ba32-c8e2d186acb5, "OdinNECRO_Vendor"); //Fort Joy - Square
@@ -31,7 +18,30 @@ DB_OBCORE_CustomVendor(OdinNECRO_Trader_000_10833000-2839-4970-8173-6ccaf99c4862
 DB_OBCORE_CustomVendor(OdinNECRO_Trader_000_de5dab8c-54a6-42bc-9d59-2ceb763d1e84, "OdinNECRO_Vendor"); //Arx Square
 
 KBSECTION
+IF
+GameStarted(_, _)
+THEN
+PROC_OBNECRO_ConfigureEnemySkills();
 
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+PROC_OBNECRO_ConfigureEnemySkills();
+
+PROC
+PROC_OBNECRO_ConfigureEnemySkills()
+THEN
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyMosquitoSwarm", "Projectile_OdinNECRO_Enemy_BloodBarrage");
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyBurnMyEyes","Target_OdinNECRO_Enemy_OathOfDesecration");
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFrostyShell","Target_OdinNECRO_Enemy_OathOfDesecration");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_MysticRupture");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyHailStrike","Target_OdinNECRO_Enemy_MysticRupture");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_OdinNECRO_Enemy_MysticRupture");
+PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyContamination","Projectile_OdinNECRO_Enemy_WitchesBrew");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyContamination_Shambling","Projectile_OdinNECRO_Enemy_WitchesBrew");
 EXITSECTION
 
 ENDEXITSECTION
