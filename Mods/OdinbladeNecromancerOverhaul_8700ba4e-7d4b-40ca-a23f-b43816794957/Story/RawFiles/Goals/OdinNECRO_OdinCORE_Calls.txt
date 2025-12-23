@@ -40,8 +40,6 @@ PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_OdinNEC
 PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyContamination","Projectile_OdinNECRO_Enemy_WitchesBrew");
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyContamination_Shambling","Projectile_OdinNECRO_Enemy_WitchesBrew");
 EXITSECTION
 
 ENDEXITSECTION
