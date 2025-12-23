@@ -32,14 +32,33 @@ PROC
 PROC_OBNECRO_ConfigureEnemySkills()
 THEN
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyMosquitoSwarm", "Projectile_OdinNECRO_Enemy_BloodBarrage");
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyBlood", "Projectile_OdinNECRO_Enemy_BloodBarrage");
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyMosquitoSwarm", "Projectile_OdinNECRO_Enemy_SanguineTorrent", 4);
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyBlood", "Projectile_OdinNECRO_Enemy_SanguineTorrent", 4);
+
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyBurnMyEyes","Target_OdinNECRO_Enemy_OathOfDesecration");
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFrostyShell","Target_OdinNECRO_Enemy_OathOfDesecration");
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_MysticRupture");
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyHailStrike","Target_OdinNECRO_Enemy_MysticRupture");
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_OdinNECRO_Enemy_MysticRupture");
-PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream");
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDeathWish","Target_OdinNECRO_Enemy_OathOfDesecration",8);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyGraspOfTheStarved","Shout_OdinNECRO_Enemy_Hemoplague", 6);
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_MysticRupture", 4);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Target_OdinNECRO_Enemy_MysticRupture", 4);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Target_OdinNECRO_Enemy_MysticRupture", 4);
+PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyDazingBolt","Target_OdinNECRO_Enemy_MysticRupture", 4);
+
+PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream", 11);
+
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDecayingTouch","Target_OdinNECRO_Enemy_ArcanePunishment", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyInfect","Target_OdinNECRO_Enemy_ArcanePunishment", 6);
+
+PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Target_OdinNECRO_Enemy_Mute");
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyInfect","Cone_OdinNECRO_Enemy_LocustPlague", 4);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyShacklesOfPain","Cone_OdinNECRO_Enemy_LocustPlague", 4);
 EXITSECTION
 
 ENDEXITSECTION

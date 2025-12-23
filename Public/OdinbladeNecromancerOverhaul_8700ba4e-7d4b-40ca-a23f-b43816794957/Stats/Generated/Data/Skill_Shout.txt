@@ -372,3 +372,12 @@ data "IsEnemySkill" "Yes"
 data "Memory Cost" "0"
 data "Magic Cost" "0"
 
+new entry "Shout_OdinNECRO_Enemy_Hemoplague"
+type "SkillData"
+data "SkillType" "Shout"
+using "Shout_OdinNECRO_Hemoplague"
+data "ForGameMaster" "No"
+data "IsEnemySkill" "Yes"
+data "Memory Cost" "0"
+data "Magic Cost" "0"
+
