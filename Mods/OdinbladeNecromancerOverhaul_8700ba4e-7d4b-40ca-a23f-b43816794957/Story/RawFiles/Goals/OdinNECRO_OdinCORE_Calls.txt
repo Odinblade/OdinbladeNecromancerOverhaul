@@ -59,6 +59,21 @@ PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Target_OdinNECRO_Enem
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyInfect","Cone_OdinNECRO_Enemy_LocustPlague", 4);
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyShacklesOfPain","Cone_OdinNECRO_Enemy_LocustPlague", 4);
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyNecromancerTotems","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyBonePile","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyBoneTroll","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyBoneTroll_Dog","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyBoneTroll_Mini","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton_Archer","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton_Archer_Dog","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton_Regular","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton_Strong","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemySkeleton_Weak","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyZombie","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+PROC_OBCORE_AddEnemySkillEntry("Summon_EnemyZombie_Blood","Shout_OdinNECRO_Enemy_FrenzyOfTheRestless");
+
 EXITSECTION
 
 ENDEXITSECTION
