@@ -4,41 +4,52 @@ INITSECTION
 
 KBSECTION
 //REGION OBNECRO_SACRIFICE_SOURCES
+IF
+SavegameLoading(_,_,_,_)
+AND
+DB_OBNECRO_Bloodtide(_SkillId, _Percentage)
+THEN
+NOT DB_OBNECRO_Bloodtide(_SkillId, _Percentage);
+
+IF
+GameStarted(_, _)
+THEN
+PROC_OBNECRO_ConfigureBloodtideSkills();
+
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+PROC_OBNECRO_ConfigureBloodtideSkills();
+
+PROC
+PROC_OBNECRO_ConfigureBloodtideSkills()
+THEN
+PROC_OBNECRO_AddBloodtideSkill("Target_OdinNECRO_SanguineTorrent", 16);
+PROC_OBNECRO_AddBloodtideSkill("Target_OdinNECRO_Enemy_SanguineTorrent", 11);
+PROC_OBNECRO_AddBloodtideSkill("Target_OdinNECRO_Translocate", 11);
+PROC_OBNECRO_AddBloodtideSkill("Projectile_OdinNECRO_BloodBarrage", 16);
+PROC_OBNECRO_AddBloodtideSkill("Projectile_OdinNECRO_Enemy_BloodBarrage", 11);
+PROC_OBNECRO_AddBloodtideSkill("Rain_Blood", 6);
+PROC_OBNECRO_AddBloodtideSkill("Rain_EnemyBlood", 6);
+PROC_OBNECRO_AddBloodtideSkill("Shout_OdinNECRO_Bloodletting", 6);
+PROC_OBNECRO_AddBloodtideSkill("Shout_OdinNECRO_Hemoplague", 21);
+PROC_OBNECRO_AddBloodtideSkill("Shout_OdinNECRO_Enemy_Hemoplague", 16);
+PROC_OBNECRO_AddBloodtideSkill("Storm_Blood", 26);
+
+PROC
+PROC_OBNECRO_AddBloodtideSkill((STRING)_SkillId, (INTEGER)_Percentage)
+AND
+NOT DB_OBNECRO_Bloodtide(_SkillId, _Percentage)
+THEN
+DB_OBNECRO_Bloodtide(_SkillId, _Percentage);
+
 //Extra 1% added due to rounding issues.
 IF
-CharacterUsedSkill(_Character, "Target_OdinNECRO_SanguineTorrent",_,_)
+CharacterUsedSkill(_Character, _SkillId,_,_)
+AND
+DB_OBNECRO_Bloodtide(_SkillId, _Percentage)
 THEN
-ODINNECRO_SAC(_Character, 16);
-
-IF
-CharacterUsedSkill(_Character, "Target_OdinNECRO_Translocate",_,_)
-THEN
-ODINNECRO_SAC(_Character, 11);
-
-IF
-CharacterUsedSkill(_Character, "Projectile_OdinNECRO_BloodBarrage",_,_)
-THEN
-ODINNECRO_SAC(_Character, 16);
-
-IF
-CharacterUsedSkill(_Character, "Rain_Blood",_,_)
-THEN
-ODINNECRO_SAC(_Character, 6);
-
-IF
-CharacterUsedSkill(_Character, "Shout_OdinNECRO_Bloodletting",_,_)
-THEN
-ODINNECRO_SAC(_Character, 6);
-
-IF
-CharacterUsedSkill(_Character, "Shout_OdinNECRO_Hemoplague",_,_)
-THEN
-ODINNECRO_SAC(_Character, 21);
-
-IF
-CharacterUsedSkill(_Character, "Storm_Blood",_,_)
-THEN
-ODINNECRO_SAC(_Character, 26);
+ODINNECRO_SAC(_Character, _Percentage);
 
 //Status for Death Wish usage on allies.
 IF
