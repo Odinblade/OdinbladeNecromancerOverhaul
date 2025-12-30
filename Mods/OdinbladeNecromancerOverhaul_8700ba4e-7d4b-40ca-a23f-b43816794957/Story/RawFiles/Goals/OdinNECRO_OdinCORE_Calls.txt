@@ -38,22 +38,22 @@ PROC_OBCORE_AddEnemySkillEntry("Target_EnemyMosquitoSwarm", "Projectile_OdinNECR
 PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyBlood", "Projectile_OdinNECRO_Enemy_SanguineTorrent", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyBurnMyEyes","Target_OdinNECRO_Enemy_OathOfDesecration");
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDeathWish","Target_OdinNECRO_Enemy_OathOfDesecration",8);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDeathWish","Target_OdinNECRO_Enemy_OathOfDesecration");
 
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyGraspOfTheStarved","Shout_OdinNECRO_Enemy_Hemoplague", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyGraspOfTheStarved","Shout_OdinNECRO_Enemy_Hemoplague", 9);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_OdinNECRO_Enemy_MysticRupture", 4);
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Target_OdinNECRO_Enemy_MysticRupture", 4);
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Target_OdinNECRO_Enemy_MysticRupture", 4);
 PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyDazingBolt","Target_OdinNECRO_Enemy_MysticRupture", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream", 11);
+PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Shout_OdinNECRO_Enemy_HorrificScream", 13);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","Projectile_OdinNECRO_Enemy_ArcaneVolley");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinNECRO_Enemy_ArcaneVolley");
 
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDecayingTouch","Target_OdinNECRO_Enemy_ArcanePunishment", 6);
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyInfect","Target_OdinNECRO_Enemy_ArcanePunishment", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyDecayingTouch","Target_OdinNECRO_Enemy_ArcanePunishment", 9);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyInfect","Target_OdinNECRO_Enemy_ArcanePunishment", 9);
 
 PROC_OBCORE_AddEnemySkillEntry("Cone_EnemySilencingStare","Target_OdinNECRO_Enemy_Mute");
 
